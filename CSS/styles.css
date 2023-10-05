@@ -1,0 +1,32 @@
+header{
+    margin-bottom: 0;
+}
+footer {
+  background-color: #202020;
+
+  text-align: center;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/*My clases*/
+.content {
+  margin-left: 5%;
+  margin-top: 5%;
+  height: 90%;
+  width: 90%;
+  background-color: #F6F4EB;
+}
+
+.content h1 {
+    text-align: center;
+    background-color: #176b87;
+}
+
+
+.navbar{
+    background-color: red;
+    margin-top: -10px;
+}
