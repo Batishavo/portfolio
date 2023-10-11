@@ -1,14 +1,7 @@
-header {
-  margin-bottom: 0;
-}
 footer {
   background-color: #202020;
 
   text-align: center;
-}
-footer a {
-  color: white;
-  text-decoration: none;
 }
 
 h1 {
@@ -24,15 +17,33 @@ header {
   top: 0;
   width: 90%;
   z-index: 1;
+  margin-bottom: 0;
   /* visibility: hidden; */
 }
 h2 ,h3{
   text-align: center;
 }
 main {
-  padding: 10px;
+  padding: 30px;
+  justify-content: flex-start;
 }
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type:disc;
+}
+
 /*My clases*/
+
+.card-image{
+  width: 200px; /* You can set the dimensions to whatever you want */
+  height: 200px;
+}
+
 
 .content {
   overflow: auto;
@@ -59,6 +70,7 @@ main {
 .navbar {
   background-color: var(--primary-color);
   margin-top: -10px;
+  border-radius: 5px;
 }
 
 .my-sections {
@@ -68,6 +80,18 @@ main {
   border-radius: 10px;
   font-size: 0.8rem;
 }
+
+.card {
+  height: 100%; /* Establece una altura del 100% para todas las tarjetas */
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex: 1; /* Hace que el cuerpo de la tarjeta ocupe el espacio disponible */
+}
+
+
 @media only screen and (min-device-width: 992px)  {
     .content{
         margin-top: 120px;
