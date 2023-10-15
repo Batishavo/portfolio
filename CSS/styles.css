@@ -1,0 +1,129 @@
+footer {
+  background-color: #202020;
+
+  text-align: center;
+}
+
+h1 {
+  font-family: "Press Start 2P", sans-serif;
+}
+body {
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+header {
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  z-index: 1;
+  margin-bottom: 0;
+  /* visibility: hidden; */
+}
+h2 ,h3{
+  text-align: center;
+}
+main {
+  padding: 30px;
+  justify-content: flex-start;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type:disc;
+}
+
+/*My clases*/
+
+.card-image{
+  width: 200px; /* You can set the dimensions to whatever you want */
+  height: 200px;
+}
+
+
+.content {
+  overflow: auto;
+  z-index: 0;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-top: 100px;
+  height: 90%;
+  width: 90%;
+  background-color: var(--complemetary-color);
+  border-radius: 10px;
+}
+
+.content h1 {
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+.content figure{
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  margin-top: -10px;
+  border-radius: 5px;
+}
+
+.my-sections {
+  margin-top: 10px;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.card {
+  height: 100%; /* Establece una altura del 100% para todas las tarjetas */
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex: 1; /* Hace que el cuerpo de la tarjeta ocupe el espacio disponible */
+}
+
+
+@media only screen and (min-device-width: 992px)  {
+    .content{
+        margin-top: 120px;
+    }
+    .my-sections{
+        background-color: none;
+    }
+  }
+
+
+.badge{
+  color: white;
+}
+.bg-azure{
+  background-color: #4e64df;
+}
+.bg-gitgub{
+  background-color: #fab536;
+}
+.bg-Frontend-Developer{
+  background-color: #48d35f;
+}
+.bg-Estructuras-Datos{
+  background-color: #202020;
+
+}
+.bg-JavaScript{
+  background-color: #fa48cd;
+}
+.bg-HTML{
+  background-color: #da2b2b;
+}
+.bg-CSS{
+  background-color: #881515;
+}
