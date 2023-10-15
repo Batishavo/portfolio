@@ -101,3 +101,29 @@ ul{
     }
   }
 
+
+.badge{
+  color: white;
+}
+.bg-azure{
+  background-color: #4e64df;
+}
+.bg-gitgub{
+  background-color: #fab536;
+}
+.bg-Frontend-Developer{
+  background-color: #48d35f;
+}
+.bg-Estructuras-Datos{
+  background-color: #202020;
+
+}
+.bg-JavaScript{
+  background-color: #fa48cd;
+}
+.bg-HTML{
+  background-color: #da2b2b;
+}
+.bg-CSS{
+  background-color: #881515;
+}
